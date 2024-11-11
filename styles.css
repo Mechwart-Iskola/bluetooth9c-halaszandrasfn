@@ -2,6 +2,7 @@ body {
   font-family: sans-serif;
   background-attachment: fixed;
   background-size: cover;
+  background-image: url(hatter.jpg);
 }
 
 #content {
@@ -57,4 +58,33 @@ table {
 table {
   margin-right: 20px;
   background-color: rgba(227, 225, 233, 0.3);
+}
+
+#BT{
+  font-family: 'Courier New', Courier, monospace,sans-serif;
+}
+
+th{
+  color: white;
+  background-color: #0A82F7;
+}
+
+table{
+  border: #0A82F7;
+}
+
+td, th{
+  border: 1px solid black;
+  padding: 15px;
+  text-align: none;
+
+}
+
+a:visited{
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  color: yellow;
 }
